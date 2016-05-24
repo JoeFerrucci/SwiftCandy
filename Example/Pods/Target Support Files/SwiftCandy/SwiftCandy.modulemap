@@ -1,0 +1,6 @@
+framework module SwiftCandy {
+  umbrella header "SwiftCandy-umbrella.h"
+
+  export *
+  module * { export * }
+}

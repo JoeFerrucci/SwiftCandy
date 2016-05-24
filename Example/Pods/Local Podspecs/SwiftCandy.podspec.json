@@ -1,0 +1,22 @@
+{
+  "name": "SwiftCandy",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftCandy.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SwiftCandy",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Joe Ferrucci": "ahoy@joeferrucci.info"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SwiftCandy.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftCandy/Classes/**/*"
+}
