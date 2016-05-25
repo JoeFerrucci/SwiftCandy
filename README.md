@@ -1,3 +1,5 @@
+![SwiftCandy](http://i.imgur.com/jK9XNfU.png)
+
 # SwiftCandy
 
 [![CI Status](http://img.shields.io/travis/Joe Ferrucci/SwiftCandy.svg?style=flat)](https://travis-ci.org/Joe Ferrucci/SwiftCandy)
