@@ -68,7 +68,7 @@
 		91EF1A4BAF132A8F628AE6E404B126DF /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D34ECCB9113A10197320CD540DDA73 /* ExampleMetadata.swift */; };
 		94487DFBEF3DE8592B93444D29A27E15 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875A7681674D572B7002D69BBCD1BA09 /* Example.swift */; };
 		96ED0CCA721955637A88FE0C9737EC56 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85564484FA6ABBE76C0B73863EFFFCDE /* SourceLocation.swift */; };
-		98A460881BB57A4A86618A8AEB356F9D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CED4BFE7E7A5FAE346E9DB25BE6DC78 /* ReplaceMe.swift */; };
+		98A460881BB57A4A86618A8AEB356F9D /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CED4BFE7E7A5FAE346E9DB25BE6DC78 /* TextStyles.swift */; };
 		9AED2E8B5426FB6110AF3BACC5A7BD13 /* Pods-SwiftCandy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAC20872AF090B502BE293BCB1670A7 /* Pods-SwiftCandy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B5DE58927557CE87968C051D2A1C47E /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29528E2ADACEB31F5B2380DA50612C1 /* BeLogical.swift */; };
 		9F08F74CB8740CF0EFF26746EEB0C930 /* CurrentTestCaseTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9759ABA2939945FD31FB478AE32D9E15 /* CurrentTestCaseTracker.m */; };
@@ -174,7 +174,7 @@
 		69E738963C2EB4542069F1E6586836C9 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		6A5B6394838D23DE3BD6C1113A355553 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Sources/Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
 		6B35D73FE32B5605BA8E9A91112A5B01 /* Pods-SwiftCandy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftCandy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CED4BFE7E7A5FAE346E9DB25BE6DC78 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		6CED4BFE7E7A5FAE346E9DB25BE6DC78 /* TextStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 		6CF762208E123E2F61AEE13E62DCA565 /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Sources/Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
 		6D1DFFF32FC6E8FEC7E5672B094C2000 /* SwiftCandy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCandy.xcconfig; sourceTree = "<group>"; };
 		6E148CFDF59C650F236F804EA94542FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -550,7 +550,7 @@
 		DF768AFE818E2E595D8CF76C32433648 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6CED4BFE7E7A5FAE346E9DB25BE6DC78 /* ReplaceMe.swift */,
+				6CED4BFE7E7A5FAE346E9DB25BE6DC78 /* TextStyles.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -849,7 +849,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A460881BB57A4A86618A8AEB356F9D /* ReplaceMe.swift in Sources */,
+				98A460881BB57A4A86618A8AEB356F9D /* TextStyles.swift in Sources */,
 				B41AC1EBB31825595122096269071E3D /* SwiftCandy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

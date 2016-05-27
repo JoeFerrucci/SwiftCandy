@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import SwiftCandy
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let redBackground = TextStyles.textBackground(.redColor())
+        let whiteText = TextStyles.textColor(.whiteColor())
+        let whiteOnRed = redBackground >>> whiteText
+        let label = UILabel(frame: view.bounds)
+        view.addSubview(label)
+        label.attributedText = whiteOnRed("Swift Candy".mutableAttributedString)
     }
 
     override func didReceiveMemoryWarning() {
